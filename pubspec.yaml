@@ -1,0 +1,19 @@
+name: takyam-bbs-vanilla
+version: 0.0.1
+description: BBS example which created by Dart use no framwork.
+author: takyam <takayuki.yamaguch.m@gmail.com>
+homepage: https://github.com/takyam-git/
+documentation: https://github.com/takyam-git/vanilla-bbs
+dependencies:
+  http_server: ">=0.9.5+1 <0.10.0"
+  route: ">=0.4.6 <0.5.0"
+  oauth2: ">=0.9.3 <0.10.0"
+  polymer: ">=0.15.3+2 <0.16.0"
+  bootstrap: ">=3.3.0+4 <4.0.0"
+dev_dependencies:
+  unittest: ">=0.11.4 <0.12.0"
+transformers:
+- bootstrap:
+    url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
+    version: 3.3.1
+
